@@ -1,0 +1,11 @@
+<!-- views/compose.ejs -->
+<%- include('partials/header', { title: 'Compose' }) %>
+  <div class="container">
+    <h2>Compose</h2>
+    <form action="/compose" method="post">
+      <input type="text" name="postTitle" placeholder="Title" required>
+      <textarea name="postContent" placeholder="Content" rows="10" required></textarea>
+      <button class="aaa" type="submit"><strong>Publish</strong> </button>
+    </form>
+  </div>
+<%- include('partials/footer') %>

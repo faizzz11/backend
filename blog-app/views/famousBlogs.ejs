@@ -1,0 +1,19 @@
+<!-- views/famousBlogs.ejs -->
+<%- include('partials/header', { title: 'Famous Blogs' }) %>
+  <div class="container">
+    <h2>Famous Blogs</h2>
+    <div class="famous-blogs">
+      <div class="blog">
+        <img src="https://example.com/image1.jpg" alt="Blog 1">
+        <h3><a href="https://example.com/blog1">Famous Blog 1</a></h3>
+        <p>Description of famous blog 1.</p>
+      </div>
+      <div class="blog">
+        <img src="https://example.com/image2.jpg" alt="Blog 2">
+        <h3><a href="https://example.com/blog2">Famous Blog 2</a></h3>
+        <p>Description of famous blog 2.</p>
+      </div>
+      <!-- Add more blog entries as needed -->
+    </div>
+  </div>
+<%- include('partials/footer') %>
